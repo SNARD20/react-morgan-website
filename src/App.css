@@ -30,11 +30,13 @@ body {
 }
 .hero{
   height: 710px;
+  width: 100%;
 }
 .hero1{
   position: absolute;
-  top: 320px;
-  left: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 540px;
 }
 #button{
